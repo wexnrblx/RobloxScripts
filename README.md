@@ -15,7 +15,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/wexnrblx/RobloxScript
 
 # Hotel Elephant Admin
 
-## Press F9 for cmds!
+## so old i hate this | f9 for cmds
 
 ```lua
 loadstring(game:HttpGet('https://raw.githubusercontent.com/wexnrblx/RobloxScripts/main/hotelelephantadmin'))()
