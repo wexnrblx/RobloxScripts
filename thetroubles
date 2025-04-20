@@ -372,8 +372,8 @@ local function DGAMQJA_fake_script() -- next.LocalScript
 	local script = Instance.new('LocalScript', next)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible =true
-		script.Parent.Parent.Parent.f1.Visible = false
+		script.Parent.Parent.Visible =false
+		script.Parent.Parent.Parent.f2.Visible = true
 	end)
 end
 coroutine.wrap(DGAMQJA_fake_script)()
