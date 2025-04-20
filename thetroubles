@@ -412,6 +412,7 @@ run.RenderStepped:Connect(function()
 	end
 	if whiza == true then
 		for _, player in next, game.Players:GetPlayers() do
+		for i, v in pairs(game.Players:GetChildren) do
 			game:GetService('ReplicatedStorage')['CKC_Engin'].Eventos.Whizz:FireServer(player)
 		end
 		wait(0.1)
